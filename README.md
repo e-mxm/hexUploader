@@ -1,10 +1,10 @@
-### A simple binary uploader for Arduino Nano Every
+### Simple binary uploader for Arduino Nano Every
 
-Simple utility for uploading .hex firmware into [Arduino Nano Every](https://docs.arduino.cc/hardware/nano-every) (ATMega4809)
+Simple utility to flash .hex firmware into [Arduino Nano Every](https://docs.arduino.cc/hardware/nano-every) (ATMega4809)
 #### Futures
-- Configure appropriate serial port at 1200 baud with DTR=ON
+- Configure serial port to 1200 baud with DTR=ON
 - Turn DTR off
-- Flash device with `avrdude` and `avrdude.conf` the same way as Arduino IDE does
+- Flash device with `avrdude` and `avrdude.conf` the same way Arduino IDE does it
 ---
 ##### Usage for Linux:
 `./hexUpload_NanoEvery.sh [port] [/path/to/hexfile.hex]`
